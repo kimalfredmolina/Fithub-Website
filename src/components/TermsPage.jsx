@@ -1,9 +1,14 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const TermsPage = () => {
   return (
-    <div id="terms" className="min-h-screen text-gray-800 px-6 py-10">
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
+    <div id="terms" className="min-h-screen mt-16 text-gray-800 px-6 py-10">
+      <motion.div 
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
         <h1 className="text-5xl font-bold text-center mb-6 text-gray-900">Terms and Conditions</h1>
         <p className="text-gray-700 mb-4">
           Welcome to FitHub! By using our workout set tracker application, you agree to the following terms and conditions. Please read them carefully.
@@ -54,7 +59,7 @@ const TermsPage = () => {
         </section>
 
         <p className="text-center text-gray-800 mt-6">Thank you for choosing FitHub to track your fitness journey!</p>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -1,9 +1,14 @@
 import React from 'react';
+import { motion } from "framer-motion";
 
 const HelpSupportPage = () => {
   return (
-    <div id="help" className="min-h-screen text-gray-800 px-6 py-10">
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
+    <div id="help" className="min-h-screen mt-16 text-gray-800 px-6 py-10">
+      <motion.div 
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8">
         <h1 className="text-5xl font-bold text-center mb-6 text-gray-900">Help & Support</h1>
         <p className="text-gray-700 mb-4">
           Welcome to the FitHub Help & Support page! We're here to assist you with any issues or questions you may have regarding our workout set tracker application.
@@ -43,7 +48,7 @@ const HelpSupportPage = () => {
         </section>
 
         <p className="text-center text-gray-800 mt-6">Thank you for choosing FitHub! We're here to support you on your fitness journey.</p>
-      </div>
+      </motion.div>
     </div>
   );
 };
