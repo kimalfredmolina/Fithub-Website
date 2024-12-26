@@ -21,8 +21,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex flex-1 justify-center items-center space-x-8 lg:space-x-12 text-lg lg:text-2xl">
             <a href="#home" className="hover:text-red-600 font-bold duration-300">Home</a>
-            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Terms</a>
-            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Condition</a>
+            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Terms & Condition</a>
             <a href="#help" className="hover:text-red-600 font-bold duration-300">Help</a>
             <a href="#feedback" className="hover:text-red-600 font-bold duration-300">Feedback</a>
           </div>
@@ -43,8 +42,7 @@ const Navbar = () => {
           className="md:hidden bg-gray-800 text-lime-400 text-lg absolute w-full left-0 top-20 z-40 shadow-lg">
           <div className="flex flex-col items-center py-4 space-y-4">
             <a href="#home" className="hover:text-red-600 font-bold duration-300">Home</a>
-            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Terms</a>
-            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Condition</a>
+            <a href="#terms" className="hover:text-red-600 font-bold duration-300">Terms & Condition</a>
             <a href="#help" className="hover:text-red-600 font-bold duration-300">Help</a>
             <a href="#feedback" className="hover:text-red-600 font-bold duration-300">Feedback</a>
           </div>
