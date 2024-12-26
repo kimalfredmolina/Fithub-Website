@@ -1,6 +1,3 @@
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
-import { BiLogoGmail } from "react-icons/bi";
-import { FaDownload } from "react-icons/fa6";
 import background from '../assets/gym.gif';
 import { motion } from "framer-motion";
 
