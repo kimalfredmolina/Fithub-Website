@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import TermsPage from './components/TermsPage';
-import ConditionPage from './components/ConditionPage';
 import HelpSupportPage from './components/HelpSupportPage';
 import Feedback from './components/Feedback';
 import Footer from './components/Footer';
@@ -19,9 +18,6 @@ export default function App() {
         </div>
         <div id='terms'>
           <TermsPage />
-        </div>
-        <div id='condition'>
-          <ConditionPage />
         </div>
         <div id='help'>
           <HelpSupportPage />

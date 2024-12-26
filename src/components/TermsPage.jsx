@@ -49,7 +49,7 @@ const TermsPage = () => {
         <section className="mb-6">
           <h2 className="text-xl font-semibold mb-2 text-gray-900">6. Contact Us</h2>
           <p className="text-gray-700">
-            If you have any questions or concerns about these terms, please contact us at <a href="mailto:support@fithub.com" className="text-blue-500 underline">support@fithub.com</a>.
+            If you have any questions or concerns about these terms, please contact us at <a href="mailto:projecta245@gmail.com" className="text-blue-500 underline">projecta245@gmail.com</a>
           </p>
         </section>
 
