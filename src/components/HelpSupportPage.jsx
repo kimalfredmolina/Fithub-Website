@@ -19,6 +19,7 @@ const HelpSupportPage = () => {
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
             <li><strong>How do I log my workouts?</strong> Use the workout tracker feature to input your exercise, repetitions, and sets.</li>
             <li><strong>Can I edit my workout data?</strong> Yes, you can modify your workout logs anytime from your dashboard.</li>
+            <li><strong>How I delete my whole workouts?</strong> Hold the card you want to select to delete.</li>
           </ul>
         </section>
 
